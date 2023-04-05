@@ -126,7 +126,7 @@ Let´s take a look at another file named “Ssonei.txt” with some information 
 
 **How would you see the first 10 lines of “Ssonei.txt” file?** 
 
-You should see something like this:
+Remember that you can use different commands to reach the output. You should see something like this:
 
 ```
 |Sample name|ID |Accession (run) number |Accession (sample) number|Assembly accessions|Study |Year|Country
