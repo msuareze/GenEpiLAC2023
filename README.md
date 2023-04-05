@@ -22,6 +22,7 @@ Learn how to apply genomics to epidemiological surveillance of bacterial pathoge
 - [Caterina Guzman Verri](https://scholar.google.com/citations?user=S1GNAC8AAAAJ&hl=en), PIET, Veterinary School, Universidad Nacional, Costa Rica
 - [Tomas Poklepovich](https://www.researchgate.net/profile/Tomas-Poklepovich), CNGB ANLIS “Dr. Carlos G. Malbrán, Argentina
 - [Maria Sol Haim](https://www.researchgate.net/profile/Maria-Sol-Haim), CNGB ANLIS “Dr. Carlos G. Malbrán, Argentina
+- [Marcela Suárez-Esquivel](https://www.researchgate.net/profile/Marcela-Suarez-Esquivel), Veterinary School, Universidad Nacional, Costa Rica
 
 
 <br>
