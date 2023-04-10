@@ -249,7 +249,7 @@ Let's examine the quality of these sequence data using [FastQC](https://www.bioi
 
 We can launch the graphical interface by simply executing ``fastqc`` on the Terminal command line. However, it is often more convenient to use the software in the command-line mode. Execute the following command in the Terminal:
 
-    fastqc *.fastq.gz
+    fastqc *.fastq*
 
 You will see some messages like this on your screen:
 
@@ -315,7 +315,7 @@ Now, we are going to look at how we can remove poor data and contamination by tr
 
 We will need to do some minor trimming (quality 25, length 50) as well as checking/removing Illumina adapter sequences:
 ```
-trim_galore -q 25 --length 50 --paired SRR1553467_1.fastq SRR1553467_2.fastq
+trim_galore -q 25 --length 50 --paired ARIMSS995-11_1.fastq ARIMSS995-11_2.fastq
 ```
 
 -q 25 = trim the 3’ end of the reads – remove nucleotides less than Phred Quality 25
@@ -325,8 +325,8 @@ trim_galore -q 25 --length 50 --paired SRR1553467_1.fastq SRR1553467_2.fastq
 --paired = the names of the paired FASTQ files to analyses in order
 
 Once trim_galore has finished, check the outputs. You should see that two new FASTQ (.fq) files have been created by trim_galore:
-SRR1553467_1_val_1.fq
-SRR1553467_2_val_2.fq
+ARIMSS995-11_1_val_1.fq
+ARIMSS995-11_2_val_2.fq
 
 **How many paired reads are left in the sample after trimming?**
 
